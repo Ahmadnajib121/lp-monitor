@@ -62,7 +62,7 @@ def main():
         return
 
     if not pools:
-        if not ONLY_ALERT:
+        if False:
             send(f"📭 Tidak ada posisi DLMM yang terbuka ({wib}).")
         return
 
